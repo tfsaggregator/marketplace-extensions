@@ -1,0 +1,58 @@
+{
+  "manifestVersion": 2,
+  "id": "tfs-aggregator-web-service",
+  "version": "2.3.0",
+  "name": "TFS Aggregator (Web Service)",
+  "description": "TFS Aggregator is a extension for TFS and VSTS that enables running custom script when Work Items change, allowing dynamic calculation of field values in TFS and more.",
+  "publisher": "tfsaggregatorteam",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services.Cloud.Integration"
+    }
+  ],
+  "icons": {
+    "default": "images/logo.png"
+  },
+  "contributions": [
+  ],
+  "galleryFlags": [
+    "Preview",
+    "Public"
+  ],
+  "scopes": [
+    "vso.entitlements",
+    "vso.notification_manage",
+    "vso.project",
+    "vso.work_write"
+  ],
+  "categories": [
+    "Plan and track"
+  ],
+  "branding": {
+    "color": "rgb(132, 81, 161)",
+    "theme": "dark"
+  },
+  "content": {
+    "details": {
+      "path": "readme-web-service.md"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://tfsaggregator.github.io/"
+    },
+    "support": {
+      "uri": "https://github.com/tfsaggregator/tfsaggregator-webhooks/issues"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/tfsaggregator/tfsaggregator-webhooks/"
+  },
+  "files": [
+    {
+      "path": "images/logo.png",
+      "addressable": true
+    }
+  ]
+}
